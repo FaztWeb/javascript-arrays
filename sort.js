@@ -14,4 +14,3 @@ import { students, points } from "./data/students";
 // const sortedPoints = points.sort((a, b) => a > b ? 1 : -1)
 
 const sortedStudents = students.sort((a ,b) => a.age - b.age);
-

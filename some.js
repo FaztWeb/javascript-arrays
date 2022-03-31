@@ -1,1 +1,3 @@
-["Joe", "Ryan", "Bruce", "Jose"].some(name => name === "Joe") //?
+const result = students.some((student) => student.lastname === "Doe");
+
+console.log(result);

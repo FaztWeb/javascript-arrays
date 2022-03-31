@@ -1,18 +1,34 @@
-const developers = [
+const students = [
   {
-    id:1,
+    name: "Jill",
+    lastname: "Doe",
+    age: 24,
+    course: "Marketing",
+  },
+  {
     name: "John",
-    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "NodeJS"]
+    lastname: "Doe",
+    age: 22,
+    course: "Web Development",
   },
   {
-    id:2,
-    name: "Jane",
-    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "NodeJS"]
-  },
-  {
-    id:3,
     name: "Jack",
-    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "NodeJS"]
-  }
-]
+    lastname: "Doe",
+    age: 20,
+    course: "Accounting",
+  },
+  {
+    name: "Ryan Jhon",
+    lastname: "Ray",
+    age: 23,
+    course: "Web Development",
+  },
+  {
+    name: "Jane",
+    lastname: "Doe",
+    age: 20,
+    course: "Financial Management",
+  },
+];
 
+console.log(students);

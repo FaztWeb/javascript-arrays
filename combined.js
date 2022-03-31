@@ -1,12 +1,12 @@
 import { students } from "./data/students";
 
 const result = students
-  .map((student) => ({
-    student: `${student.name} ${student.lastname}`,
-    age: student.age,
+  .map(({ name, lastname, age }) => ({
+    student: `${name} ${lastname}`,
+    age,
   }))
-  .filter((student) => student.age < 23)
-  .sort((a, b) => a.age - b.age)
+  .filter((student) => student.age > 20)
+  .sort((a, b) => b.age - a.age)
   .reduce((total, student) => total + student.age, 0);
 
-result;
+console.log(result);

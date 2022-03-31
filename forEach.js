@@ -1,12 +1,19 @@
 import { students } from "./data/students";
 
-// for (let i = 0; i < students.length; i++) {
-//   const student = students[i];
-//   console.log(student);
+// for(let i = 0; i < students.length; i++) {
+//   console.log(students[i])
 // }
 
-// students.forEach((student, index, students) => {
-//   console.log(`${index}: ${student.name}`);
-// });
+// students.forEach(function (student, index, students) {
+//   console.log(student)
+//   console.log(index)
+//   console.log(students)
+// })
 
-students.forEach((student, i) => console.log(`${i}, ${student.name}`));
+const fullnames = [];
+
+students.forEach((student) => {
+  fullnames.push(student.name + " " + student.lastname);
+});
+
+console.log(fullnames);

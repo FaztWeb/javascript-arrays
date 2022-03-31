@@ -38,3 +38,17 @@ import { students } from "./data/students";
 //     age: student.age,
 //   }))
 //   .map((student) => `${student.fullName} is ${student.age} years old`);
+
+
+// const fullnames = students.map(function (student) {
+//     return student.name + ' ' + student.lastname;
+// })
+
+const doubleage = students
+  .map((student) => ({
+    ...student,
+    course: "Programming",
+  }))
+  .map((student) => ({ ...student, age: student.age * 2 }));
+
+console.log(doubleage);

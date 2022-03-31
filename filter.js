@@ -1,27 +1,20 @@
 import { students } from "./data/students";
 
-// let developers = [];
+// const developers = []
 
 // for (let i = 0; i < students.length; i++) {
-//   if (students[i].course === "Web Development") {
-//     developers.push(students[i]);
+//   if (students[i].course === 'Web Development') {
+//     developers.push(students[i])
 //   }
 // }
+// console.log(developers)
 
-
-// const developers = students.filter(function (student) {
-//   if (student.course === "Web Development") {
-//     // return student;
+// const result = students.filter(function (student) {
+//   if (student.course === 'Web Development') {
 //     return true
 //   }
 // })
 
-// const youngStudents = students.filter(function (student) {
-//   if (student.age < 21) {
-//     return true
-//   }
-// })
+const result = students.filter((student) => student.age > 21);
 
-
-const developers = students.filter(student => student.course === "Web Development");
-const youngStudents = students.filter(student => student.age < 21 );
+console.log(result);
