@@ -1,2 +1,2 @@
-language = "undefined"
-run = ""
+language = "nodejs"
+run = "npm start"
