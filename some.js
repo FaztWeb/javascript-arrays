@@ -1,0 +1,1 @@
+["Joe", "Ryan", "Bruce", "Jose"].some(name => name === "Joe") //?
