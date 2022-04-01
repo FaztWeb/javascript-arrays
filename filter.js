@@ -1,4 +1,4 @@
-import { students } from "./data/students";
+import { students } from "./data/sample_data.js";
 
 // const developers = []
 

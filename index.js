@@ -1,3 +1,4 @@
+// sample array of students
 const students = [
   {
     name: "Jill",
@@ -31,4 +32,5 @@ const students = [
   },
 ];
 
+// Write your code here!
 console.log(students);

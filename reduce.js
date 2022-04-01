@@ -1,4 +1,4 @@
-import { points, students } from "./data/students";
+import { students } from "./data/sample_data.js";
 
 // let total = 0;
 // for (let i = 0; i < points.length; i++) {
@@ -14,7 +14,6 @@ const total = points.reduce((total, point) => total + point, 0);
 const totalAges = students.reduce((total, student) => total + student.age, 0);
 
 totalAges;
-
 
 const developers = [
   {

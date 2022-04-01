@@ -1,4 +1,4 @@
-import { students } from "./data/students";
+import { students } from "./data/sample_data.js";
 
 // const studentNames = students.map(function (student) {
 //   return {
@@ -17,7 +17,6 @@ import { students } from "./data/students";
 //     fullname: `${student.name} ${student.lastname}`,
 //   };
 // });
-
 
 // const doubleAges = students.map((student) => student.age).map((age) => age * 2);
 
@@ -38,7 +37,6 @@ import { students } from "./data/students";
 //     age: student.age,
 //   }))
 //   .map((student) => `${student.fullName} is ${student.age} years old`);
-
 
 // const fullnames = students.map(function (student) {
 //     return student.name + ' ' + student.lastname;

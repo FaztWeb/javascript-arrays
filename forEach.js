@@ -1,4 +1,4 @@
-import { students } from "./data/students";
+import { students } from "./data/sample_data.js";
 
 // for(let i = 0; i < students.length; i++) {
 //   console.log(students[i])
